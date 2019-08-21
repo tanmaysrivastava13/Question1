@@ -1,8 +1,11 @@
 package PracticeSet1;
 
+import java.util.Scanner;
+
 public class Question1 {
     public static void main(String[] args) {
-        System.out.println("hello");
-
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        System.out.println("Welcome, " + s + "!");
     }
 }
